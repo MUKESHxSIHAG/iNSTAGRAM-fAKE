@@ -7,8 +7,7 @@ import Instalogin from './Components/Instalogin';
 function App() {
   return (
     <>
-      {/* <Emailjs /> */}
-      <Instalogin/>
+      <Instalogin />
     </>
   );
 }
